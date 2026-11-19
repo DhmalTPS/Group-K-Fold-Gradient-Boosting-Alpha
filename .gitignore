@@ -1,0 +1,17 @@
+# Whitelist: ignore everything, then allow only the chosen files.
+# Competition data (train/test parquet, sample_submission) is organiser data
+# and is never committed. Submission CSVs (~12 MB each) are also excluded.
+*
+!*/
+!.gitignore
+!README.md
+!algo*/*.ipynb
+!algo1/code_try_quant.py
+!algo*/output*/feature_importance.csv
+
+# never descend into these
+.venv/
+**/.venv/
+**/kaggle/
+**/__pycache__/
+**/.ipynb_checkpoints/
