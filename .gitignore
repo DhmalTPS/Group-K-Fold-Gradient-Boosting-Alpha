@@ -15,3 +15,5 @@
 **/kaggle/
 **/__pycache__/
 **/.ipynb_checkpoints/
+
+!/LICENSE
